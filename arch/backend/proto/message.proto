@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package search; 
+
+service WebsitesSearchService{
+    rpc GetWebsitesFromKeywords(Message) returns (Websites){}
+}
+
+message Message{
+    string message = 1;
+}
+
+message Websites{
+    repeated Website website = 1;
+}
+
+message Website{
+    int32 id = 1;
+    string title = 2;
+    string description = 3;
+    string keywords = 4;
+    string url = 5;
+}
