@@ -1,2 +1,2 @@
-# Welcome Distributed Systems Course!
-On this repo, I'm going to develop all my assignments for the Distributed Systems Course at Diego Portales University. 
+# Redis and gRPC!
+Redis usage for givin less work to a big relational database, using gRPC protocol to communicate some services. 
